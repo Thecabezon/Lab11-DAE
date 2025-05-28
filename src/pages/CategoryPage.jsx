@@ -82,6 +82,7 @@ function CategoryPage() {
                                     codigo={category.id}
                                     nombre={category.name}
                                     descripcion={category.description}
+                                    imagen={category.image_url} 
                                     onDelete={() => handleDelete(category.id)}
                                 />
                             </div>
